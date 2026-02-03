@@ -1,0 +1,90 @@
+QMainWindow {
+    background-color: #edfffe;
+}
+
+QWidget {
+    background-color: #edfffe;
+}
+
+QTabWidget {
+    background-color: #d3fffc;
+}
+
+QTabBar {
+    background-color: #d3fffc;
+}
+
+QLabel {
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+QPushButton {
+    background-color: #d3fffc;
+    color: rgb(55, 55, 55);
+    font-size: 24px;
+    font-family: arial, sans-serif;
+    margin: 5px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #bee6e3;
+}
+
+QPushButton:pressed {
+    background-color: #a3c5c2;
+}
+
+QLineEdit {
+    background-color: #d3fffc;
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-family: arial, sans-serif;
+
+    border: 1px solid #a3c5c2;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+QRadioButton {
+    spacing: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 9px;
+    background: white;
+}
+
+QRadioButton::indicator:checked {
+    background: #7aded7;
+}
+
+
+QCheckBox {
+    color: rgb(55, 55, 55);
+    font-size: 14px;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 4px;
+    background: white;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #7aded7;
+}
+
+QCheckBox::indicator:unchecked {
+    background-color: #edfffe;
+}

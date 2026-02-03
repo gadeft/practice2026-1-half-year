@@ -1,0 +1,29 @@
+QMainWindow {
+    background-color: rgb(125, 125, 125);
+}
+
+QPushButton {
+    background-color: rgb(75, 75, 75);
+    color: rgb(100, 100, 255);
+    font-size: 32px;
+    font-family: arial, sans-serif;
+    margin: 5px;
+    padding: 20px;
+}
+
+QPushButton:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+QPushButton:pressed {
+    background-color: rgb(50, 50, 50);
+}
+
+QLabel {
+    background-color: rgb(75, 75, 75);
+    color: rgb(100, 100, 255);
+    font-size: 52px;
+    font-family: arial, sans-serif;
+    margin: 5px;
+    padding: 20px;
+}

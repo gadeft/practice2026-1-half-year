@@ -1,0 +1,80 @@
+QMainWindow {
+    background-color: rgb(100, 100, 100);
+}
+
+QDialog {
+    background-color: rgb(200, 200, 200);
+}
+
+QLabel {
+    color: rgb(50, 150, 255);
+    font-size: 24px;
+    font-family: arial, sans-serif;
+}
+
+QLabel#errorLabel {
+    color: rgb(200, 50, 50);
+    font-weight: bold;
+    font-size: 42px;
+    margin: 25px 75px 25px 75px;
+}
+
+QPushButton {
+    background-color: rgb(70, 70, 70);
+    color: rgb(50, 150, 255);
+    font-size: 24px;
+    font-family: arial, sans-serif;
+
+    width: 40px;
+    height: 25px;
+
+    padding: 10px;
+}
+
+QPushButton#ok_button {
+    background-color: rgb(25, 75, 200);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 18px;
+}
+
+QPushButton#num {
+    background-color: rgb(80, 80, 80);
+}
+
+QPushButton:hover {
+    background-color: rgb(65, 65, 65);
+}
+
+QPushButton:pressed {
+    background-color: rgb(50, 50, 50);
+}
+
+QPushButton#num:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+QPushButton#num:pressed {
+    background-color: rgb(55, 55, 55);
+}
+
+
+QLineEdit {
+    background-color: rgb(100, 100, 100);
+    color: rgb(0, 150, 255);
+    selection-background-color: rgb(0, 150, 255);
+    selection-color: rgb(100, 100, 100);
+    font-size: 32px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+
+    height: 50px;
+    width: 100%;
+
+    border: 0px solid rgb(50, 150, 255);
+
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
