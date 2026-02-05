@@ -1,0 +1,3 @@
+TOKEN = "8525942727:AAHIzQUZMIxeQXab3cVNz9kEdA626g0cD_E"
+CHAT_ID = 6145251837
+URL = f"https://api.telegram.org/bot{TOKEN}"
